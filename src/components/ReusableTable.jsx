@@ -33,7 +33,7 @@ const ReusableTable = ({ data }) => {
           <TableHead className="w-[200px] min-w-[200px] max-w-[300px] break-words whitespace-normal">
             Title
           </TableHead>
-          <TableHead className="w-[200px] min-w-[200px] max-w-[300px] break-words whitespace-normal">
+          <TableHead className="w-[100px] min-w-[100px] md-w-[200px] max-w-[200px] md-max-w-[300px] break-words whitespace-normal">
             Description
           </TableHead>
           <TableHead>Category</TableHead>

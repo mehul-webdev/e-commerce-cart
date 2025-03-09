@@ -24,12 +24,18 @@ const Navbar = () => {
 
   return (
     <div className="px-6 py-4 shadow-md flex justify-between items-center bg-white dark:bg-gray-800 fixed w-full z-1">
-      <NavLink to="/" className="text-xl font-bold dark:text-white">
+      <NavLink
+        to="/"
+        className="text-md mr-2 md-text-xl font-bold dark:text-white"
+      >
         🛒 Shopping Cart
       </NavLink>
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-2 md:gap-4">
         <NavLink to="/cart">
-          <Button variant="outline" className={"cursor-pointer"}>
+          <Button
+            variant="outline"
+            className={"cursor-pointer px-2 py-1 text-xs md:text-md"}
+          >
             <ShoppingCart />
             View Cart{" "}
             {cartItems.length > 0 && (
