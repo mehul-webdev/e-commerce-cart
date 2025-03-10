@@ -1,15 +1,6 @@
-import React, { useEffect } from "react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import React from "react";
+import { Card } from "@/components/ui/card";
 
-import { useDispatch, useSelector } from "react-redux";
-import { fetchProductsThunk } from "../redux/productSlice";
 import Product from "./Product";
 
 const ProductList = ({ items }) => {
